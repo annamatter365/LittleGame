@@ -1,0 +1,13 @@
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\bin\Debug\netstandard2.0\LittleGame.deps.json
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\bin\Debug\netstandard2.0\LittleGame.dll
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\bin\Debug\netstandard2.0\ref\LittleGame.dll
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\bin\Debug\netstandard2.0\LittleGame.pdb
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\LittleGame.AssemblyInfoInputs.cache
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\LittleGame.AssemblyInfo.cs
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\LittleGame.dll
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\ref\LittleGame.dll
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\LittleGame.pdb
+C:\Users\win10\source\repos\LittleGame\LittleGame\LittleGame\obj\Debug\netstandard2.0\LittleGame.csprojAssemblyReference.cache

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LittleGame.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="WidthRequest" Value="100" />
+                <Setter Property="HeightRequest" Value="100" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="spiderman"/>
+            <StackLayout BackgroundColor="Transparent">
+                <StackLayout VerticalOptions="Start" Orientation="Horizontal" BackgroundColor="#CC0000FF">
+                    <!-- Place new controls here -->
+                    <Entry Placeholder="Name" HorizontalOptions="FillAndExpand" TextColor="White"/>
+                </StackLayout>
+
+                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal">
+                        <Button Clicked="Button_Clicked" x:Name="btn0" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn1" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn2" BackgroundColor="#7FFFFFFF"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Clicked="Button_Clicked" x:Name="btn3" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn4" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn5" BackgroundColor="#7FFFFFFF"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Clicked="Button_Clicked" x:Name="btn6" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn7" BackgroundColor="#7FFFFFFF"/>
+                        <Button Clicked="Button_Clicked" x:Name="btn8" BackgroundColor="#7FFFFFFF"/>
+                    </StackLayout>
+                </StackLayout>
+                <Label x:Name="Gewonnen" IsVisible="false" TextColor="White" VerticalOptions="EndAndExpand" FontSize="18" HorizontalOptions="Center"/>
+                <Button x:Name="Reset" IsVisible="false" Text ="Reset Spiel" Clicked="Reset_Clicked" BackgroundColor="#7FFFFFFF"/>
+
+                <StackLayout VerticalOptions="EndAndExpand" Orientation="Horizontal" BackgroundColor="#CCFF0000">
+                    <!-- Place new controls here -->
+                    <Entry Placeholder="Name" HorizontalOptions="FillAndExpand" TextColor="White"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
